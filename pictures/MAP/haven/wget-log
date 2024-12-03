@@ -1,0 +1,12 @@
+--2024-12-01 14:39:15--  https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/bccc7b5f8647a4f654d4bb359247bce6e82c77ab-3840x2160.png?auto=format
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving cmsassets.rgpub.io (cmsassets.rgpub.io)... 23.215.35.80, 23.215.35.92, 2600:1417:5c00:21::17d6:a986, ...
+Connecting to cmsassets.rgpub.io (cmsassets.rgpub.io)|23.215.35.80|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2691325 (2.6M) [image/png]
+Saving to: ‘bccc7b5f8647a4f654d4bb359247bce6e82c77ab-3840x2160.png?auto=format’
+
+                 bccc7b5f8647a4f6   0%[                                                           ]       0  --.-KB/s                               bccc7b5f8647a4f65   9%[====>                                                      ] 246.98K  1.20MB/s                              bccc7b5f8647a4f654  51%[=============================>                             ]   1.32M  3.22MB/s               bccc7b5f8647a4f654d4bb359247bce6e 100%[==========================================================>]   2.57M  4.58MB/s    in 0.6s    
+
+2024-12-01 14:39:16 (4.58 MB/s) - ‘bccc7b5f8647a4f654d4bb359247bce6e82c77ab-3840x2160.png?auto=format’ saved [2691325/2691325]
+

@@ -1,0 +1,116 @@
+
+/* --------------- */
+/* peta jumbotron */
+/* --------------- */
+.peta-jumbotron {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; 
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling tulisan */
+.peta-content h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 80px; 
+  color: black;
+  font-family: "Tungsten-Bold";
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(63, 63, 63, 0.5); 
+  text-align: left;
+}
+/* --------------- */
+/* End of peta jumbotron */
+/* --------------- */
+
+
+/* --------------- */
+/* Maps */
+/* ---------------- */
+.map-content-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; 
+  text-align: center; 
+  padding: 20px;
+  margin-top: -100px;
+}
+
+/* Judul */
+.map-title {
+  font-size: 3rem;
+  font-family: "Tungsten-Bold";
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  padding-top: 80px;
+  color: #333;
+}
+
+/* Paragraf */
+.map-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Gambar besar */
+.map-image-large img {
+  width: 100%;
+  height: 80%;
+  max-width: 1500px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.map-image-large img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+
+/* Thumbnail gambar kecil */
+.map-image-thumbnails {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+  margin-top: 20px;
+}
+
+.map-image-thumbnails img {
+  width: 230px;
+  height: 150px;
+  object-fit: cover; 
+  border-radius: 8px;
+  cursor: pointer; 
+  transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
+}
+
+.map-image-thumbnails img:hover {
+  transform: scale(1.2); 
+  opacity: 0.8; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .map-title {
+    font-size: 2rem;
+  }
+
+  .map-description {
+    font-size: 1rem;
+  }
+
+  .map-image-thumbnails img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* --------------- */
+/* End of Maps */
+/* ---------------- */
